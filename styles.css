@@ -1,0 +1,481 @@
+/*BASE*/
+*{
+ font-family: futura-pt, sans-serif;
+}
+
+body{ 
+  text-align: center;
+  /*background-color: #8083c9;*/
+  padding-top: 60px;
+  margin: 0px;
+  background-image: url('bckg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  
+}
+
+main{
+  margin: 10px;
+ /* background-color: #8083c9;*/
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#underline{
+  border:1px solid white; 
+  margin-bottom: 100px;
+  width:30%;
+}
+
+h1{
+  color: white;
+  margin-bottom: 15px;
+}
+
+p{
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+
+h2{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover{
+  color: white;
+}
+
+/*basek mehetnek egybe*/
+#contact-base{
+  transform: translate3d(0, 900px, 0);
+  animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+#partners-base{
+  transform: translate3d(0, 900px, 0);
+  animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+#leiras-base{
+  transform: translate3d(0, 900px, 0);
+  animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+/*LOGIN FORM*/
+
+#login-screen{
+  background-image: url('bckg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#login-form {
+  /*background-color: #8083c9;*/
+  border: 4px solid #f1f1f1;
+  text-align: center;
+  color: white;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-top: 6%;
+  width: 50%;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#login-form input[type=text], #login-form input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#login-form button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#login-form button:hover {
+  opacity: 0.8;
+}
+
+#login-form .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+#login-form img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+#login-form .container {
+  padding: 16px;
+}
+
+
+/*NAVIGATION BAR*/
+
+.topnav {
+  text-align: center;
+  background-color: #333;
+  overflow: hidden;
+  margin: 0%;
+  margin-top: 0px;
+  margin-bottom: 1%;
+  position: fixed;
+  z-index : 10000;
+  width: 100%;
+  top: 0;
+  margin: 0px;
+}
+
+.topnav a {
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ba8300;
+  color: white;
+}
+
+.topnav-right{
+  float: right;
+  background-color: #cf142b;
+}
+
+/*TABLE*/
+
+table {
+  font-weight: 400;
+  font-style: normal;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow:hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  width: 80%;
+  transform: translate3d(0, 500px, 0);
+  animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(odd){background-color: white;}
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #333;
+  color: white;
+}
+
+/*SIGN UP FORM*/
+
+#jelentkezz{
+  font-size: 30px;
+}
+
+.user {
+    width: 100%;
+    max-width: 450px;
+    margin: 10vh auto;
+}
+
+.user__header {
+    text-align: center;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.7s forwards;
+}
+
+.user__title {
+    font-size:  14px;
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: white;
+}
+
+.form {
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+.form--no {
+    animation: NO 1s ease-in-out;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    transition: 0.3s;
+    
+}
+
+.form__input:focus {
+  background: darken(#fff, 3%);
+}
+
+.btn {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  -webkit-appearance: none;
+  outline: 0;
+  border: 0;
+  color: white;
+  background: #ba8300;
+  transition: 0.3s;
+    
+    
+}
+.btn:hover {
+  background: hsl(42, 96%, 30%) ;
+}
+
+.btn:active{
+  background: #ffb300;
+}
+
+@keyframes NO {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+/*PARNTERS FLIPCARDS*/
+
+.partners-container{
+  width: 100%;
+  height: 700px;
+}
+
+.flip-card {
+  float: left;
+  background-color: transparent;
+  width: 210px;
+  height: 170px;
+  border: none;
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#more{
+  font-size: 15px;
+}
+
+.flip-card-inner {
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  
+}
+
+.flip-card-back {
+  background-color: #ba8300;
+  color: white;
+  transform: rotatey(180deg);
+}
+
+/*ELERHETOSEGEK*/
+
+.icon{
+  float: left;
+  margin-right: 1%;
+}
+
+.mapouter{
+  border-radius: 15px;
+  overflow:hidden; 
+  margin-right: 0%;
+}
+
+
+#contact-form{
+  color: white;
+  margin-left: 10%;
+  width: 40%;
+  border-radius: 15px;
+  overflow:hidden;
+  float: left;
+}
+
+#contact-form input[type=text], #contact-form input[type=email], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 4%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#contact-form button {
+  background-color: #ba8300;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#contact-form button:hover {
+  background: hsl(42, 96%, 30%) ;
+}
+
+#contact-form button:active{
+  background: #ffb300;
+}
+
+#contact-form button:hover {
+  opacity: 0.8;
+}
+
+
+
+/*map*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 270px;
+  width: 100%;
+  margin-right: 3%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 270px;
+  width: 100%;
+}
+
+.content{
+  margin-bottom: 3%;
+}
